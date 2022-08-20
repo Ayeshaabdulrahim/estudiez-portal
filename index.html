@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EStudiez Portal || Welcome to Estudiez</title>
+    <link rel="shortcut icon" href="imges/tablogo.png">
+
+        <!-- bootstrap css -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <!-- bootstrap jquery -->
+        <script src="jquery-3.6.0.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.js"></script>
+         <!-- font awesome --> 
+        <link rel="stylesheet" href="font/css_2/all.min.css">
+        <!-- css -->
+        <link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- body styling -->
+
+<body>
+
+    <!-- basic container -->
+    <div class="custom">
+
+
+        <div class="container-fluid ">
+
+            <div class="container-fluid text1"  >
+    
+                <!-- sub container -->
+                
+                <div class="textsubdiv">
+             
+                    <label style="font-size: 30px;"><b>Enter Your Name:   </b></label><input class="nameplaceholder" id="getusername" type="text" placeholder="">
+                    <br>
+                  
+                    <label style="font-size: 30px;"><b>Select user category you belong to: </b></label>
+                    <br>
+                      <input id="student" style="height:20px; width:20px; vertical-align: middle;"  name="portaltype" type="radio"  onclick="javascript:window.location.href='student.html'; return false;"  >
+                      <label style="font-size: 25px;">Student</label><br>
+                      <input id="teacher"  style="height:20px; width:20px; vertical-align: middle;"  name="portaltype" type="radio"  onclick="javascript:window.location.href='Teacher.html'; return false;" >
+                      <label style="font-size: 25px;">Teacher</label><br>
+                      <input id="parent"  style="height:20px; width:20px; vertical-align: middle;" name="portaltype" type="radio"  onclick="javascript:window.location.href='parent.html'; return false;" >
+                      <label style="font-size: 25px;">Parent/Guardian</label>
+                </div>
+    
+                <!-- end of sub container -->
+        
+                
+            </div>
+    
+    
+        </div>
+    
+
+
+    </div>
+
+<!-- end of basic container -->
+    
+</body>
+<script>
+      $("document").ready(function(){
+            
+
+     
+
+        $("#student").attr('disabled', 'disabled');
+        $("#teacher").attr('disabled', 'disabled');
+        $("#parent").attr('disabled', 'disabled');
+
+
+
+    $("#getusername").keyup(function(){
+       var username = $("#getusername").val();
+       
+       if (username != null) {
+           
+           sessionStorage.setItem("username", username);
+        $("#student").attr( {disabled: false} ) ;
+        $("#teacher").attr( {disabled: false} ) ;
+        $("#parent").attr( {disabled: false} ) ;
+
+
+       }
+    })
+  })
+
+  document.getElementById("username").innerHTML = sessionStorage.getItem("username");
+
+
+</script>
+</html>

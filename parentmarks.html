@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EStudiez Portal || Student Marks</title>
+    <link rel="shortcut icon" href="images/tablogo.png">
+
+        <!-- bootstrap css -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <!-- bootstrap jquery -->
+        <script src="jquery-3.6.0.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.js"></script>
+         <!-- font awesome --> 
+        <link rel="stylesheet" href="font/css_2/all.min.css">
+        <!-- css -->
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+<div class="container-fluid">
+    <center class="topheader"><img width="30px" height="40px" style="margin-right: 20px;" src="images/tablogo.png">  Hello, <b id="username"></b>   welcome  back to Estudiez Parent/Guardian Portal<img width="30px" style="margin-left: 20px;" height="40px" src="images/tablogo.png"></center>
+    <nav class="navbar navbar-expand-lg navbar-light" >
+        <a class="navbar-brand d-lg-none" href="#"><img class="logo" src="images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
+            aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbarToggler7">
+            <ul style="width: 70%; position: relative; left: 22%;" class="navbar-nav align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link padding" href="parentmarks.html"><p class="activetab">Student Marks</p></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link padding" href="parentacademic.html">Student Progress</a>
+                </li>
+            
+                <a class="d-none d-lg-block" href="parent.html"><img class="logo" src="images/logo.png"></a>
+             
+                <li class="nav-item">
+                    <a class="nav-link padding" href="parentfeedback.html">Feedback</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link padding" href="parentcontact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+
+    <center><h1 class="feedbackh">Student Marks</h1></center>
+
+    <table>
+        <thead>
+          <tr>
+            <th>COURSE NAME</th>
+            <th>COURSE CODE</th>
+            <th>FACULTY</th>
+            <th>MARKS</th>
+            <th>PERCENTAGE</th>
+            <th>GRADE</th>
+            <th>FACULTY REMARKS</th>
+          </tr>
+        <thead>
+        <tbody>
+          <tr>
+            <td>Maths</td>
+            <td>AS111</td>
+            <td>Ma'am Shumaila</td>
+            <td>56</td>
+            <td>56%</td>
+            <td>C</td>
+            <td>Need improvement</td>
+          </tr>
+             <tr>
+                <td>Physics</td>
+                <td>HS156</td>
+                <td>Sir Nadeem</td>
+                <td>85</td>
+                <td>85%</td>
+                <td>A</td>
+                <td>Keep it up</td>
+          </tr>
+             <tr>
+                <td>Chemistry</td>
+                <td>SD580</td>
+                <td>Ma'am Mahnaz</td>
+                <td>78</td>
+                <td>78%</td>
+                <td>B</td>
+                <td>Good</td>
+          </tr>
+             <tr>
+                <td>Islamiat</td>
+                <td>WQ627</td>
+                <td>Sir Allah Baksh</td>
+                <td>76</td>
+                <td>76%</td>
+                <td>B</td>
+                <td>Improve your writing</td>
+          </tr>
+
+          <tr>
+            <td>English</td>
+            <td>RT267</td>
+            <td>Ma'am Iraj</td>
+            <td>86</td>
+            <td>86%</td>
+            <td>A</td>
+            <td>Excellent</td>
+      </tr>
+
+      <tr>
+        <td>Urdu</td>
+        <td>ZI739</td>
+        <td>Ma'am Ayesha</td>
+        <td>76</td>
+        <td>76%</td>
+        <td>B</td>
+        <td>Can do better</td>
+  </tr>
+
+  <tr>
+    <td>Botany</td>
+    <td>RD531</td>
+    <td>Ma'am Aaliha</td>
+    <td>73</td>
+    <td>73%</td>
+    <td>B</td>
+    <td>Superb</td>
+</tr>
+
+<tr>
+    <td>Zoology</td>
+    <td>ER385</td>
+    <td>Ma'am Rida</td>
+    <td>45</td>
+    <td>45%</td>
+    <td>F</td>
+    <td>Unsatisfactory</td>
+</tr>
+<tr>
+    <td>Computer</td>
+    <td>CR885</td>
+    <td>Ma'am Sara</td>
+    <td>92</td>
+    <td>92%</td>
+    <td>A+</td>
+    <td>Welldone</td>
+
+    <tr>
+        <td>Pakistan Studies</td>
+        <td>ER385</td>
+        <td>Ma'am Zarmeena</td>
+        <td>87</td>
+        <td>87%</td>
+        <td>A</td>
+        <td>Very good</td>
+    </tr>
+</tr>
+        </tbody>
+      </table>
+        
+
+
+
+    
+    <marquee behavior="scroll" width="100%" direction="left" height="40x" scrollamount="30">
+ 
+        <img width="30px" height="40px" style="margin-right: 20px;" src="images/tablogo.png">Today's date and time is <span id="time" > </span> <img width="30px" style="margin-left: 20px;" height="40px" src="images/tablogo.png">
+       </marquee>
+   
+  <!-- Footer -->
+  <footer
+  class="text-center text-lg-start text-white"
+  style="background-color: #ececec"
+  >
+<!-- Section: Social media -->
+<section
+     class="d-flex justify-content-between p-4"
+     style="background-color: #ffc409"
+     >
+<!-- Left -->
+<div class="me-5">
+<span>Get connected with us on social networks:</span>
+</div>
+<!-- Left -->
+
+<!-- Right -->
+<div>
+<a href="#" class="text-black me-4">
+  <i class="fab fa-facebook-f"></i>
+</a>
+<a href="#" class="text-white me-4">
+  <i class="fab fa-twitter"></i>
+</a>
+<a href="#" class="text-white me-4">
+  <i class="fab fa-google"></i>
+</a>
+<a href="#" class="text-white me-4">
+  <i class="fab fa-instagram"></i>
+</a>
+<a href="#" class="text-white me-4">
+  <i class="fab fa-linkedin"></i>
+</a>
+<a href="#" class="text-white me-4">
+  <i class="fab fa-github"></i>
+</a>
+</div>
+<!-- Right -->
+</section>
+<!-- Section: Social media -->
+
+<!-- Section: Links  -->
+<section class="">
+<div class="container text-center text-md-start mt-5">
+<!-- Grid row -->
+<div class="row mt-3">
+  <!-- Grid column -->
+  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+    <!-- Content -->
+    <h6 style="color: black;" class="text-uppercase fw-bold">Estudiez Portal</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #ffc409; height: 2px"
+        />
+    <p style="color: black;">
+      is a web based portal intended to track academic 
+progress of a student. This system will allow various types of users such as Students, 
+Parents/Guardians, and Teachers to view and track progress. 
+
+    </p>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+    <!-- Links -->
+    <h6 style="color: black;" class="text-uppercase fw-bold">Other Portals</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #ffc409; height: 2px"
+        />
+    <p>
+      <a style="color: black;" href="Student.html">Student Portal</a>
+    </p>
+    <p>
+      <a style="color: black;"  href="Teacher.html">Teacher Portal</a>
+    </p>
+    <p>
+      <a style="color: black;" href="Parent.html">Parent/Guardian Portal</a>
+    </p>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+    <!-- Links -->
+    <h6 style="color: black;" class="text-uppercase fw-bold">Help lines</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #ffc409; height: 2px"
+        />
+    <p>
+      <a style="color: black;" href="index.html">021 - 35768907 </a>
+    </p>
+    <p>
+      <a style="color: black;" href="feedback.html">021 - 35240986</a>
+    </p>
+    <p>
+      <a style="color: black;" href="Contactus.html">021-76549825</a>
+    </p>
+
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+    <!-- Links -->
+    <h6 style="color: black;" class="text-uppercase fw-bold">Contact</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #ffc409; height: 2px"
+        />
+    <p style="color: black;"><i  class="fas fa-home mr-3"></i>DHA Centre , Karachi Pakistan</p>
+    <p style="color: black;"><i class="fas fa-envelope mr-3"></i> Estudiez@gmail.com</p>
+    <p style="color: black;"><i class="fas fa-phone mr-3"></i>021 - 35768907 </p>
+    <p style="color: black;"><i class="fas fa-phone mr-3"></i>021 - 35240986 </p>
+  </div>
+  <!-- Grid column -->
+</div>
+<!-- Grid row -->
+</div>
+</section>
+<!-- Section: Links  -->
+
+<!-- Copyright -->
+<div
+ class="text-center p-3"
+ style="background-color: rgba(0, 0, 0, 0.2)"
+ >
+Welcome to Estudiez @copyright 2022
+
+</div>
+<!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+    </div>
+
+
+    
+<script src="app.js"></script>
+
+
+
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EStudiez Portal || Contact us</title>
+    <link rel="shortcut icon" href="images/tablogo.png">
+
+        <!-- bootstrap css -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <!-- bootstrap jquery -->
+        <script src="jquery-3.6.0.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.js"></script>
+         <!-- font awesome --> 
+        <link rel="stylesheet" href="font/css_2/all.min.css">
+        <!-- css -->
+        <link rel="stylesheet" href="style.css">
+
+        <script> 
+
+            $(document).ready(function() {
+                $("#basic-form").validate();
+               });
+   
+   
+               $(document).ready(function(){
+                     $("input").focus(function(){
+                         $(this).css({"text-decoration":"none"}); });
+                          $("input,select,textarea").blur(function(){ 
+                               if($(this).val()==""){ $(this).css({"border-bottom":"1px solid red"});}
+                               else{$(this).css({"border-bottom":"none"}) } }); });
+   
+
+   
+    
+             
+             </script>
+</head>
+<body>
+ 
+    <div class="container-fluid">
+  
+    <center class="topheader"><img width="30px" height="40px" style="margin-right: 20px;" src="images/tablogo.png">Hello, Mrs.Ahmed welcome back to Estudiez Parent/Guardian Portal<img width="30px" style="margin-left: 20px;" height="40px" src="images/tablogo.png"></center>
+    <nav class="navbar navbar-expand-lg navbar-light" >
+        <a class="navbar-brand d-lg-none" href="#"><img class="logo" src="images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
+            aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbarToggler7">
+            <ul style="width: 70%; position: relative; left: 22%;" class="navbar-nav align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link padding" href="parentmarks.html">Student Marks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link padding" href="parentacademic.html">Student Progress</a>
+                </li>
+                <a class="d-none d-lg-block" href="parent.html"><img class="logo" src="images/logo.png"></a>
+             
+                <li class="nav-item">
+                    <a class="nav-link padding" href="parentfeedback.html">Feedback</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link padding" href="parentcontact.html"><p class="activetab">Contact Us</p></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+<section class="contact container-fluid">
+
+    <!-- heading -->
+  
+      <CONTACT>Contact us </CONTACT>
+    
+    
+  
+  <div class="container-fluid container">
+  
+    <div class="row">
+  
+      <div class="col-md-6">
+  
+        <div class="contactinfo">
+  
+          <!-- address -->
+      
+          <div class="box">
+            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>DHA Centre<br>Karachi,Pakistan</p>
+            </div>
+          </div>
+          <!-- phone -->
+          <div class="box">
+            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>507-475-6094</p>
+            </div>
+          </div>
+        <!-- email -->
+        <div class="box">
+          <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Email</h3>
+            <p>Estudiez@gmail.com</p>
+          </div>
+        </div>
+        </div>
+  
+      </div>
+  
+      <div class="col-md-6">
+  
+        <div class="contactform">
+  
+          <form id="basic-formp">
+  
+            <h2>Send Message</h2>
+            <!-- name -->
+            <div class="inputbox">
+              <input type="text" required placeholder="Full name">
+              
+            </div>
+            <!-- email -->
+            <div class="inputbox">
+              <input type="email"  required placeholder="Email">
+              
+            </div>
+            <!-- message -->
+            <div class="inputbox">
+              <input type="text"  required placeholder="Type your message...">
+              
+            </div>
+            <!-- submit -->
+            <div class="inputbox">
+              <input type="submit"  value="Submit" >
+            </div>
+  
+      
+      
+          </form>
+        </div>
+        
+      </div>
+  
+      
+      <br>
+      <br>
+  
+    </div>
+    </div>
+  
+    
+  
+    
+  </section>
+  
+  <br>
+  <br>
+
+
+
+    <marquee behavior="scroll" width="100%" direction="left" height="40x" scrollamount="30">
+ 
+        <img width="30px" height="40px" style="margin-right: 20px;" src="images/tablogo.png">Today's date and time is <span id="time" > </span> <img width="30px" style="margin-left: 20px;" height="40px" src="images/tablogo.png">
+       </marquee>
+        
+       
+  <!-- Footer -->
+  <footer
+  class="text-center text-lg-start text-white"
+  style="background-color: #ececec"
+  >
+<!-- Section: Social media -->
+<section
+     class="d-flex justify-content-between p-4"
+     style="background-color: #ffc409"
+     >
+<!-- Left -->
+<div class="me-5">
+<span>Get connected with us on social networks:</span>
+</div>
+<!-- Left -->
+
+<!-- Right -->
+<div>
+<a href="#" class="text-black me-4">
+  <i class="fab fa-facebook-f"></i>
+</a>
+<a href="#" class="text-white me-4">
+  <i class="fab fa-twitter"></i>
+</a>
+<a href="#" class="text-white me-4">
+  <i class="fab fa-google"></i>
+</a>
+<a href="#" class="text-white me-4">
+  <i class="fab fa-instagram"></i>
+</a>
+<a href="#" class="text-white me-4">
+  <i class="fab fa-linkedin"></i>
+</a>
+<a href="#" class="text-white me-4">
+  <i class="fab fa-github"></i>
+</a>
+</div>
+<!-- Right -->
+</section>
+<!-- Section: Social media -->
+
+<!-- Section: Links  -->
+<section class="">
+<div class="container text-center text-md-start mt-5">
+<!-- Grid row -->
+<div class="row mt-3">
+  <!-- Grid column -->
+  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+    <!-- Content -->
+    <h6 style="color: black;" class="text-uppercase fw-bold">Estudiez Portal</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #ffc409; height: 2px"
+        />
+    <p style="color: black;">
+      is a web based portal intended to track academic 
+progress of a student. This system will allow various types of users such as Students, 
+Parents/Guardians, and Teachers to view and track progress. 
+
+    </p>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+    <!-- Links -->
+    <h6 style="color: black;" class="text-uppercase fw-bold">Other Portals</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #ffc409; height: 2px"
+        />
+    <p>
+      <a style="color: black;" href="Student.html">Student Portal</a>
+    </p>
+    <p>
+      <a style="color: black;"  href="Teacher.html">Teacher Portal</a>
+    </p>
+    <p>
+      <a style="color: black;" href="Parent.html">Parent/Guardian Portal</a>
+    </p>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+    <!-- Links -->
+    <h6 style="color: black;" class="text-uppercase fw-bold">Help lines</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #ffc409; height: 2px"
+        />
+    <p>
+      <a style="color: black;" href="index.html">021 - 35768907 </a>
+    </p>
+    <p>
+      <a style="color: black;" href="feedback.html">021 - 35240986</a>
+    </p>
+    <p>
+      <a style="color: black;" href="Contactus.html">021-76549825</a>
+    </p>
+
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+    <!-- Links -->
+    <h6 style="color: black;" class="text-uppercase fw-bold">Contact</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #ffc409; height: 2px"
+        />
+    <p style="color: black;"><i  class="fas fa-home mr-3"></i>DHA Centre , Karachi Pakistan</p>
+    <p style="color: black;"><i class="fas fa-envelope mr-3"></i> Estudiez@gmail.com</p>
+    <p style="color: black;"><i class="fas fa-phone mr-3"></i>021 - 35768907 </p>
+    <p style="color: black;"><i class="fas fa-phone mr-3"></i>021 - 35240986 </p>
+  </div>
+  <!-- Grid column -->
+</div>
+<!-- Grid row -->
+</div>
+</section>
+<!-- Section: Links  -->
+
+<!-- Copyright -->
+<div
+ class="text-center p-3"
+ style="background-color: rgba(0, 0, 0, 0.2)"
+ >
+Welcome to Estudiez @copyright 2022
+
+</div>
+<!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+ 
+       
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

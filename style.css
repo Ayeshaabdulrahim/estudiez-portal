@@ -1,0 +1,504 @@
+.custom{
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/test.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.mainimg{
+  position: relative;
+ /* bottom: -10%; */
+  left: 19%;
+}
+
+.text1{
+  width: 56%;
+  background-color: #ffdd3e;
+position: relative;
+top: 420px;
+left: 2%;
+
+  float: right;
+
+ 
+}
+
+@media(max-width: 500px){
+  .text1{
+    float: none;
+  }
+}
+
+.textsubdiv{
+  width: 92%;
+position: relative;
+left: 10%;
+}
+
+.nameplaceholder{
+  margin-left: 3%;
+  border-radius: 5px;
+}
+
+.logoimg{
+    display: inline-block;
+}
+
+
+
+
+
+/* hover styling */
+
+a, a:hover {
+    color: #000;
+    text-decoration: none;
+   
+  }
+  
+  .topheader{
+    background-color: #ececec;
+  }
+
+
+
+/* logo    */
+
+.logo{width: 120px;
+    position: relative;
+    display: inline-block;}
+
+/* navigation item */
+
+.nav-item{
+  margin: 15px !important;
+  font-size: 16px;
+ 
+}
+
+
+.nav-item:last-child {
+   margin-right: 0;
+}
+
+/* navigation after */
+  
+  .nav-item a:after {
+      content: '';
+      display: block;
+      margin: auto;
+      height: 3px;
+      position: relative;
+      top: 3px;
+      width: 0px;
+      background: transparent;
+      transition: width .5s ease, background-color .5s ease;
+  }
+  .nav-item a:hover:after {
+      width: 100%;
+      background:#ffc409;
+    
+  }
+
+/* active tab styling */
+
+.activetab{
+
+  border-bottom: 3px solid#ffc409;
+  
+  padding: 0;
+  margin: 0;
+
+}
+
+
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+ 
+   
+}
+
+.padding{
+  padding: .7em 2em 0 2em;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: #6e6d6d;
+}
+.navbar-logo-centered .navbar-nav .nav-link{
+    padding: .5em 3em;
+}
+
+
+
+
+/* FOOTER */
+
+footer{
+    background-color: #ececec;
+  }
+  
+  /* footer font awesome */
+  
+  footer i{
+    color:rgb(68, 67, 67) ;
+  
+  }
+  
+  /* footer hover */
+  
+  footer i:hover{
+    text-decoration: none;
+    color:#ffc409;
+  }
+  
+  
+  /* end of footer */
+
+.caraousel{
+    width: 100%;
+}
+
+.feedbackformbg{
+ 
+  background: rgb(40,40,40);
+  background: linear-gradient(180deg, rgba(40,40,40,1) 0%, rgba(255,196,9,1) 83%);
+    width: 66%;
+    height: 100%;
+    border-radius:10px ;
+    padding: 15px;
+}
+  
+.feedbackh{
+    display: inline-block;
+    border-bottom:4px solid #ffc409;
+    padding-bottom:2px;
+   
+}
+
+.form{
+   
+  background-color: #ececec;
+    width: 100%;
+    /* border-radius: 10px; */
+}
+
+.form h6{
+    text-align: center;
+}
+
+
+.radio{
+  text-align: center;
+  position: relative;
+  top: 21px;
+
+}
+
+
+
+input[name="portal"] {
+  accent-color: #ffc409;
+}
+
+
+input[name="service"] {
+  accent-color: #ffc409;
+}
+
+
+input[name="Team"] {
+  accent-color: #ffc409;
+}
+
+  
+input[name="question"] {
+  accent-color: #ffc409;
+}
+
+
+
+/* contact us */
+
+
+contact{
+    position: relative;
+    margin-left: 20px;
+    top: 0;
+    font-size: 40px;
+    border-bottom:solid 4px#ffc409;
+    display: inline-block;}
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  .contact{
+    position: relative;
+     min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  .contact .content{
+    max-width: 800px;
+    text-align: center;
+  }
+  .contact .content h2{
+    font-size: 36px;
+    font-weight: 700;
+    color:#ffc409;
+  }
+  .contact .content p{
+    font-weight: 300;
+    color:black;
+  }
+  .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .container .contactinfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .contactinfo .box{
+    position: relative;
+    right: 120px;
+    top: 20px;
+  
+    display: flex;
+  }
+  .container .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #ffc409;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+  }
+  .container .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300;
+  margin-bottom: 30px;
+  }
+  .container .contactinfo .box .text h3{
+    font-weight: 500;
+    color:#ffc409;
+    width: 500px;
+    
+  }
+  .contactform{
+    width: 100%;
+  position: relative;
+  left: 100px;
+  top: 20px;
+    color:#ffc409;
+  }
+  .contactform h2{
+    font-size: 30px;
+    color:#ffc409;
+    font-weight: 500;
+  }
+  
+  .contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .contactform .inputbox input,
+  .contactform .inputbox textarea
+  {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #ffc409;
+    outline: none;
+    resize: none;
+  }
+  
+  
+  .contactform .inputbox input[type="submit"]
+  {
+    width: 100px;
+    background:#ffc409 ;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  /* end of contact page */
+  
+  /* thank you page */
+  
+  .thankyou{
+    text-align: center;
+    margin-bottom: 220px;
+    margin-top: 210px;
+    font-size: 70px;
+    text-decoration: underline #ffc409;
+    
+  }
+  
+  /* end of thank you page */
+
+  /*start of student marks */
+
+  table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 1100px;
+    width: 100%;
+    margin: 2% auto;
+    position: relative;
+  }
+  table * {
+    position: relative;
+  }
+  table td, table th {
+    padding-left: 8px;
+  }
+  table thead tr {
+    height: 60px;
+    background: #ececec;
+    font-size: 16px;
+  }
+  table tbody tr {
+    height: 48px;
+    border-bottom: 1px solid #E3F1D5;
+  }
+  table tbody tr:last-child {
+    border: 0;
+  }
+  table td, table th {
+    text-align: left;
+  }
+  table td.l, table th.l {
+    text-align: right;
+  }
+  table td.c, table th.c {
+    text-align: center;
+  }
+  table td.r, table th.r {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 35.5em) {
+    table {
+      display: block;
+    }
+    table > *, table tr, table td, table th {
+      display: block;
+    }
+    table thead {
+      display: none;
+    }
+    table tbody tr {
+      height: auto;
+      padding: 8px 0;
+    }
+    table tbody tr td {
+      padding-left: 45%;
+      margin-bottom: 12px;
+    }
+    table tbody tr td:last-child {
+      margin-bottom: 0;
+    }
+    table tbody tr td:before {
+      position: absolute;
+      font-weight: 700;
+      width: 40%;
+      left: 10px;
+      top: 0;
+    }
+    table tbody tr td:nth-child(1):before {
+      content: "Course Name";
+    }
+    table tbody tr td:nth-child(2):before {
+      content: "Course Code";
+    }
+    table tbody tr td:nth-child(3):before {
+      content: "Faculty";
+    }
+    table tbody tr td:nth-child(4):before {
+      content: "Marks";
+    }
+    table tbody tr td:nth-child(5):before {
+      content: "Percentage";
+    }
+    table tbody tr td:nth-child(5):before {
+        content: "Grade";
+      }
+      table tbody tr td:nth-child(5):before {
+        content: "Faculty Remarks";
+      }
+  }
+
+  
+
+  /* form button */
+   
+
+
+input[type=text]{
+  border-radius: 4px;
+
+}
+
+.scoreform{
+  background: rgb(40,40,40);
+  background: linear-gradient(180deg, rgba(40,40,40,1) 0%, rgba(255,196,9,1) 83%);
+    width: 66%;
+    height: 100%;
+    border-radius:10px ;
+   
+}
+
+.scoreformsub{
+  background-color: #ececec;
+    width: 100%;
+    height: 90%;
+    
+    
+    /* border-radius: 10px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

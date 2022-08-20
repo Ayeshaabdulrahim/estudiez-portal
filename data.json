@@ -1,0 +1,13 @@
+{
+    "maths": ["Maths","AS111","Ma'am Shumaila","56","56%","C","Need improvement"],
+    "Physics": ["Physics","HS156","Sir Nadeem","85","85%","A","Keep it up"],
+    "Chemistry": ["Chemistry","SD580","Ma'am Mahnaz","78","78%","B","Good"],
+    "Islamiat": ["Islamiat","WQ627","Sir Allah Baksh","76","76%","B","Improve your writing"],
+    "English": ["English","RT267","Ma'am Iraj","86","86%","A","Excellent"],
+    "Urdu": ["Urdu","ZI739","Ma'am Ayesha","76","76%","B","Can do better"],
+    "Botany": ["Botany","RD531","Ma'am Aaliha","73","73%","B","Superb"],
+    "Zoology": ["Zoology","ER385","Ma'am Rida","45","45%","F","Unsatisfactory"],
+    "Computer": ["Computer","CR885","Ma'am Sara","92","92%","A+","Welldone"],
+    "Pakistanstudies": ["Pakistan Studies","ER385","Ma'am Zarmeena","87","87%","A","Very good"]
+
+}
